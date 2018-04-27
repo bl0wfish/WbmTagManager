@@ -87,6 +87,7 @@ class PostDispatch implements SubscriberInterface
             'frontend_checkout_ajaxcart',
             'frontend_checkout_ajax_add_article',
             'frontend_checkout_ajax_delete_article',
+            'frontend_proxaonepagecheckout_index',
         ];
         $replace = [
             'frontend_listing_index',
@@ -94,6 +95,7 @@ class PostDispatch implements SubscriberInterface
             'frontend_checkout_cart',
             'frontend_checkout_ajaxaddarticlecart',
             'frontend_checkout_ajaxdeletearticlecart',
+            'frontend_checkout_cart',
         ];
         $module = str_replace($search, $replace, $module);
 
